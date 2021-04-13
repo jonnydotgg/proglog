@@ -8,5 +8,5 @@ import (
 
 func main() {
 	srv := server.NewHTTPServer(":8080")
-	log.Fatal(srv.ListenAndServer())
+	log.Fatal(srv.ListenAndServe())
 }
